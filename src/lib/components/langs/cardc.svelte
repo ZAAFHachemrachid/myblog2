@@ -1,4 +1,8 @@
-<div class="block card card-hover p-4 w-[300px] variant-glass-secondary ml-[10px] mb-5">
+<script lang="ts">
+	export let variant: string;
+</script>
+
+<div class="block card card-hover p-4 w-[300px] ${variant} ml-[10px] mb-5">
 	<header class="card-header">
 		<h2 class="h2">
 			<span

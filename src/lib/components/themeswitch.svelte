@@ -24,6 +24,5 @@
 	<option value="sahara">sahara</option>
 	<option value="rocket">rocket</option>
 	<option value="material"> material</option>
-	// nam
 	<option value="my-custom-theme-nam">nam</option>
 </select>

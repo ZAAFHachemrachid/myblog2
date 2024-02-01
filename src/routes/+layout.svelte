@@ -21,6 +21,7 @@
 	import typescript from 'highlight.js/lib/languages/typescript';
 	import Navigation from '../lib/components/navigation.svelte';
 	import Themeswitch from '$lib/components/themeswitch.svelte';
+	import Var from '$lib/components/var.svelte';
 	hljs.registerLanguage('xml', xml); // for HTML
 	hljs.registerLanguage('css', css);
 	hljs.registerLanguage('javascript', javascript);
