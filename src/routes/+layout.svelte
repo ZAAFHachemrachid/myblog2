@@ -46,7 +46,7 @@
 <!-- App Shell -->
 <AppShell slotSidebarLeft="w-0 md:w-52 bg-surface-500/10" regionPage="scroll-smooth">
 	<svelte:fragment slot="header">
-		<AppBar background="bg-secondary-100-800-token">
+		<AppBar background="bg-surface-100-800-token">
 			<svelte:fragment slot="lead">
 				<button class="md:hidden btn btn-sm mr-4" on:click={drawerOpen}>
 					<span>

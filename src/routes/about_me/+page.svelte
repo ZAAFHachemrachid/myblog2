@@ -3,7 +3,9 @@
 	import Cardcare from '$lib/components/langs/cardcare.svelte';
 	import Framecare from '$lib/components/framwork/framecare.svelte';
 	import IDEcare from '$lib/components/idemap.svelte';
+	import Testcom from '$lib/components/testcom.svelte';
 	import { tocCrawler } from '@skeletonlabs/skeleton';
+	import Themeswitch from '$lib/components/themeswitch.svelte';
 </script>
 
 <div
@@ -50,5 +52,6 @@
 			</h2>
 			<IDEcare />
 		</div>
+		<div></div>
 	</div>
 </div>

@@ -7,7 +7,7 @@ import { myCustomTheme01 } from './theme';
 import { myCustomTheme02 } from './themee';
 import { myCustomTheme03 } from './themeea';
 import { material } from './thmetail'
-
+import { myCustomThemenam } from './themenam';
 export default {
 	darkMode: 'class',
 	content: ['./src/**/*.{html,js,svelte,ts}', join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')],
@@ -20,7 +20,7 @@ export default {
 		skeleton({
 			themes: {
 				custom: [
-					myCustomTheme01,myCustomTheme02,myCustomTheme03,material
+					myCustomTheme01,myCustomTheme02,myCustomTheme03,material,myCustomThemenam
 				],
 				preset: [
 					{
