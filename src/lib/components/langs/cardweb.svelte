@@ -2,7 +2,7 @@
 	export let variant: String;
 </script>
 
-<div class="block card card-hover p-4 w-[300px] ${variant} ml-[10px] mb-5">
+<div class={`block card card-hover p-4 w-[300px] ml-[10px] mb-5 ${variant}`}>
 	<header class="card-header">
 		<h2 class="h2">
 			<span

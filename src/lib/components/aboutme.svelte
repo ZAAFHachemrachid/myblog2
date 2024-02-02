@@ -1,5 +1,6 @@
 <script>
 	import { Accordion, AccordionItem } from '@skeletonlabs/skeleton';
+	import Profile from './teste/profile.svelte';
 </script>
 
 <div class="w-full md:w-[640px] mx-auto">

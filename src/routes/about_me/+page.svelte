@@ -7,8 +7,7 @@
 	import { tocCrawler } from '@skeletonlabs/skeleton';
 	import Themeswitch from '$lib/components/themeswitch.svelte';
 	import { onDestroy } from 'svelte';
-
-	let variant = 'variant-ghost-primary';
+	export let variant = 'variant-ghost-primary';
 </script>
 
 <div>
