@@ -11,7 +11,7 @@
 </script>
 
 <div>
-	<select bind:value={variant} class="variant-ghost-primary">
+	<select bind:value={variant} class={` ${variant}`}>
 		<option value="variant-filled-primary">v fill p</option>
 		<option value="variant-ghost-primary">v ghost p</option>
 		<option value="variant-soft-primary">v soft p</option>
@@ -22,11 +22,11 @@
 		<option value="variant-soft-secondary">v soft s</option>A
 		<option value="variant-glass-secondary">v glass s</option>
 		<option value="variant-ringed-secondary">v ringed s</option>
-		<option value="variant-filled-success">v fill s</option>
-		<option value="variant-ghost-success">v ghost s</option>
-		<option value="variant-soft-success">v soft s</option>
-		<option value="variant-glass-success">v glass s</option>
-		<option value="variant-ringed-success">v ringed s</option>
+		<option value="variant-filled-success">v fill suc</option>
+		<option value="variant-ghost-success">v ghost suc</option>
+		<option value="variant-soft-success">v soft suc</option>
+		<option value="variant-glass-success">v glass suc</option>
+		<option value="variant-ringed-success">v ringed suc</option>
 	</select>
 </div>
 <div
