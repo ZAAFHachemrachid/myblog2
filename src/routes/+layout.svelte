@@ -19,7 +19,7 @@
 	import css from 'highlight.js/lib/languages/css';
 	import javascript from 'highlight.js/lib/languages/javascript';
 	import typescript from 'highlight.js/lib/languages/typescript';
-	import Navigation from '../lib/components/navigation.svelte';
+	import Navigation from '$lib/components/navigation.svelte';
 	import Themeswitch from '$lib/components/themeswitch.svelte';
 	import Var from '$lib/components/var.svelte';
 	hljs.registerLanguage('xml', xml); // for HTML
@@ -49,7 +49,7 @@
 	<svelte:fragment slot="header">
 		<AppBar background="bg-surface-100-800-token">
 			<svelte:fragment slot="lead">
-				<button class="md:hidden btn btn-sm mr-4" on:click={drawerOpen}>
+				<button class="  btn btn-sm mr-4" on:click={drawerOpen}>
 					<span>
 						<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
 							<rect width="100" height="20" />
@@ -61,12 +61,10 @@
 			>
 			<svelte:fragment slot="trail">
 				<LightSwitch></LightSwitch>
-				<Themeswitch />
 				<Avatar initials="ra" background="bg-primary-500" width="w-10" />
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-	<svelte:fragment slot="sidebarLeft"><Navigation /></svelte:fragment>
 
 	<!-- Router Slot -->
 	<slot />

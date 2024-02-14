@@ -6,31 +6,13 @@
 	import IDEcare from '$lib/components/idemap.svelte';
 	import { tocCrawler } from '@skeletonlabs/skeleton';
 	import Themeswitch from '$lib/components/themeswitch.svelte';
-	import { onDestroy } from 'svelte';
 	export let variant = 'variant-ghost-primary';
+	import bodyClass from '$lib/body';
+	import CardTmp from '$lib/components/testcaed/card_tmp.svelte';
 </script>
 
-<div>
-	<select bind:value={variant} class={` ${variant}`}>
-		<option value="variant-filled-primary">v fill p</option>
-		<option value="variant-ghost-primary">v ghost p</option>
-		<option value="variant-soft-primary">v soft p</option>
-		<option value="variant-glass-primary">v glass p</option>
-		<option value="variant-ringed-primary">v ringed p</option>
-		<option value="variant-filled-secondary">v fill s</option>
-		<option value="variant-ghost-secondary">v ghost s</option>
-		<option value="variant-soft-secondary">v soft s</option>A
-		<option value="variant-glass-secondary">v glass s</option>
-		<option value="variant-ringed-secondary">v ringed s</option>
-		<option value="variant-filled-success">v fill suc</option>
-		<option value="variant-ghost-success">v ghost suc</option>
-		<option value="variant-soft-success">v soft suc</option>
-		<option value="variant-glass-success">v glass suc</option>
-		<option value="variant-ringed-success">v ringed suc</option>
-	</select>
-</div>
 <div
-	class="container h-full mx-auto flex flex-col md:flex-row justify-center items-center w-full md:w-[640px]"
+	class=" h-full mx-auto flex flex-col md:flex-row justify-center items-center w-full md:w-[640px]"
 	use:tocCrawler={{ mode: 'generate' }}
 >
 	<!-- End of the TOC -->
@@ -73,6 +55,5 @@
 			</h2>
 			<IDEcare />
 		</div>
-		<div></div>
 	</div>
 </div>

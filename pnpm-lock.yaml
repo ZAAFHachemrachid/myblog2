@@ -11,6 +11,9 @@ dependencies:
   highlight.js:
     specifier: 11.9.0
     version: 11.9.0
+  users:
+    specifier: link:virtual:icons/tabler/users
+    version: link:virtual:icons/tabler/users
 
 devDependencies:
   '@skeletonlabs/skeleton':
